@@ -1,0 +1,349 @@
+<resources>
+	<string name="app_name">智能家居</string>
+
+	<!--other-->
+	<string name="edittext_digits">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="other_goto">马上体验</string>
+
+	<!--loginActivity-->
+	<string name="la_current_language">当前语言版本:</string>
+	<string name="la_input_account_hint">请输入小语账号/手机号/邮箱</string>
+	<string name="la_input_password_hint">请输入密码</string>
+	<string name="la_login">登录</string>
+	<string name="la_regist">注册</string>
+	<string name="la_forget_password">忘记密码</string>
+	<string name="la_other_way_login">其他方式登录</string>
+	<string name="la_simple_cn">简体中文</string>
+	<string name="la_cn">繁體中文</string>
+	<string name="la_es">English</string>
+	<string name="la_login_success">登录成功 !</string>
+	<string name="la_username_error">账号或密码错误</string>
+	<string name="la_user_no_exit">该账号未被注册</string>
+
+
+	<!--RegistActivity-->
+	<string name="ra_input_phone_hint">请输入手机号码</string>
+	<string name="ra_input_account_hint">请输入账号</string>
+	<string name="ra_input_new_password_hint">请输入新密码</string>
+	<string name="ra_input_new_password_hint1">请确认新密码</string>
+	<string name="ra_input_verification_hint">请输入验证码</string>
+	<string name="ra_send_verification">发送验证码</string>
+	<string name="ra_regist">注册</string>
+	<string name="ra_click_regist">点击注册表示您同意</string>
+	<string name="ra_agreement">&#60;&#60;小语用户协议&#62;&#62;</string>
+	<string name="ra_problem">账号常见问题</string>
+	<string name="ra_regist_success">注册成功 !</string>
+	<string name="ra_regist_exist">已经被注册过了</string>
+	<string name="ra_password_length_must_big_six">密码长度必须大于6位</string>
+	<string name="ra_double_password_no_same">两次输入的密码不一致</string>
+	<string name="ra_account_no_null">请输入账号</string>
+	<string name="ra_phone_no_null">请输入手机号</string>
+	<string name="ra_password_no_null">请输入密码</string>
+
+
+	<!--FindPasswordActivity-->
+	<string name="fpa_find_password">找回密码</string>
+	<string name="fpa_binded_phone">已绑定手机号</string>
+	<string name="fpa_binded_phone_hint">可通过已绑定的手机号找回密码</string>
+	<string name="fpa_binded_email">已绑定邮箱</string>
+	<string name="fpa_binded_email_hint">可通过已绑定的邮箱找回密码</string>
+	<string name="fpa_setting_password_problem">已设置密保问题</string>
+	<string name="fpa_setting_password_problem_hint">可通过回答密保问题找回密码</string>
+	<string name="fpa_find_password_by_family">通过家人找回密码</string>
+	<string name="fpa_find_password_by_family_hint">可通过验证共享家人的方式找回密码</string>
+	<string name="fpa_find_password__hint">以上方式都找不回密码,请联系客服</string>
+	<string name="fpa_customer_email">客服邮箱:2356@vooda.cn</string>
+	<string name="fpa_customer_phone">客服电话:0755-62362526</string>
+	<string name="fpa_customer_qq">客服 QQ:563256321</string>
+
+
+	<!--PhoneFindPasswordActivity-->
+	<string name="pfpa_account_bind_phone">账号绑定手机号</string>
+	<string name="pfpa_complate">完成</string>
+	<string name="pfpa_phone_find_password">手机号找回密码</string>
+	<string name="pfpa_modify_failed">修改失败 !</string>
+	<string name="pfpa_modify_success">修改成功 !</string>
+	<string name="pfpa_change_phone">更改手机号</string>
+
+	<!--EmailFindPasswordActivity-->
+	<string name="efpa_input_regist_email_hint">请输入注册邮箱</string>
+	<string name="efpa_iemail_find_password">邮箱找回密码</string>
+	<string name="efpa_verification_error">输入验证码错误</string>
+	<string name="efpa_email_no_null">请输入正确的邮箱</string>
+	<string name="efpa_verification_no_null">请输入验证码</string>
+	<string name="efpa_next">下一步</string>
+	<string name="efpa_send_success">验证码发送成功!</string>
+	<string name="efpa_verification_success">验证成功!</string>
+	<string name="efpa_send_failed">验证码发送失败!</string>
+	<string name="efpa_input_email_verification">请输入邮箱的验证码</string>
+	<string name="efpa_account_bind_email">账号绑定邮箱</string>
+	<string name="efpa_change_email">更换邮箱</string>
+
+	<!--SecurityFindPasswordActivity-->
+	<string name="sfpa_answer">答案:</string>
+	<string name="sfpa_question1">问题一:</string>
+	<string name="sfpa_question2">问题二:</string>
+	<string name="sfpa_question3">问题三:</string>
+	<string name="sfpa_security_find_password">密保找回密码</string>
+	<string name="sfpa_answer_no_null">答案不能为空</string>
+	<string name="sfpa_answer_error">答案错误</string>
+
+
+	<!--FamilyFindPasswordActivity-->
+	<string name="ffpa_family_find_password">通过家人找回密码</string>
+	<string name="ffpa_hint">·适用范围:不能通过绑定的手机号/邮箱登录,以及忘记登录密码的用户</string>
+	<string name="ffpa_hint1">·该找回方式需要设备上有家人共享的聊天记录</string>
+	<string name="ffpa_agree">同意</string>
+	<string name="ffpa_family_service_agreement">服务协议</string>
+	<string name="ffpa_start_find">开始找回</string>
+	<string name="ffpa_please_check_agreement">请勾选用户协议</string>
+
+
+	<!--FamilyFindPasswordTwoActivity-->
+	<string name="ffpta_appeal_account">申诉的账号</string>
+	<string name="ffpta_family_phone">家人的手机号</string>
+	<string name="ffpta_share_phone">共享人员手机号</string>
+	<string name="ffpta_family_share_phone">家人/共享人手机号</string>
+
+	<!--MainActivity-->
+	<string name="ma_device_center">设备中心</string>
+	<string name="ma_online_shop">在线商城</string>
+	<string name="ma_circel">圈子</string>
+	<string name="ma_personal_center">个人中心</string>
+
+
+	<!--PersonalCenterFragment-->
+	<string name="pcf_my_family">我的家人</string>
+	<string name="pcf_feedback">意见反馈</string>
+	<string name="pcf_problem">常见问题</string>
+	<string name="pcf_about_xiaoyu">关于小语</string>
+
+
+	<!--MyFamilyActivity-->
+	<string name="mfa_hint">温馨提示</string>
+	<string name="mfa_hint_content">请您输入对方的小语账号\n(或手机号、邮箱)</string>
+	<string name="mfa_cancel">取消</string>
+	<string name="mfa_save">保存</string>
+	<string name="mfa_add_family_success">添加成功</string>
+	<string name="mfa_add_family_failed">添加失败</string>
+	<string name="mfa_user_no_exit">用户不存在</string>
+	<string name="mfa_family_exit">家人已存在</string>
+
+	<!--FamilyDetailActivity-->
+	<string name="fda_remark_name">备注名称</string>
+	<string name="fda_share_device">共享设备</string>
+	<string name="fda_num">个</string>
+	<string name="fda_repeater">中继器</string>
+	<string name="fda_lock">智能门锁</string>
+	<string name="fda_light">智能台灯</string>
+	<string name="fda_camera">摄像头</string>
+	<string name="fda_family_detail">家人详情</string>
+	<string name="fda_bind_account">绑定账号: </string>
+	<string name="fda_share_failed_hint1">该家人已有此设备了</string>
+
+	<!--FeedBackActivity-->
+	<string name="fba_feedback_detail">问题反馈详情</string>
+	<string name="fba_feedback">意见反馈</string>
+	<string name="fba_post_success">提交成功</string>
+	<string name="fba_post_failed">提交失败</string>
+	<string name="fba_feedback_no_null">意见不能为空</string>
+	<string name="fba_contact_information_no_null">联系方式不能为空</string>
+	<string name="fba_feedback_record">反馈记录</string>
+	<string name="fba_feedback_input_hint">描述您的问题或意见,我们会在第一时间回复你</string>
+	<string name="fba_contact_information">您的联系方式</string>
+	<string name="fba_phone_eamil_qq">手机号、电子邮箱或QQ</string>
+
+	<!--FeedBackRecordActivity-->
+	<string name="fbra_all_select">全选</string>
+	<string name="fbra_delete">删除</string>
+	<string name="fbra_rely">客服回复 :</string>
+	<string name="fbra_edit">编辑</string>
+	<string name="fbra_select_one_at_least">至少选择一个</string>
+
+
+	<!--AboutXiaoYuActivity-->
+	<string name="axya_xiaoyu_app">小语家移动App</string>
+	<string name="axya_funtion">功能介绍</string>
+	<string name="axya_site">官网</string>
+	<string name="axya_user_agreement">用户协议</string>
+	<string name="axya_company">小语家移动有限公司 版权所有</string>
+
+
+	<!--SettingActivity-->
+	<string name="sa_version_langue">版本语言</string>
+	<string name="sa_customer_service">联系客服</string>
+	<string name="sa_share">分享推荐</string>
+	<string name="sa_push_message">推送消息</string>
+	<string name="sa_disturb_mode">勿扰模式</string>
+	<string name="sa_clear_cahe">清除缓存</string>
+	<string name="sa_setting">设置</string>
+
+	<!--SelectLanguageActivity-->
+	<string name="sla_select_language">语言选择</string>
+
+
+	<!--CustomerServiceActivity-->
+	<string name="csa_phone">客服手机 :</string>
+	<string name="csa_qq">客服QQ :</string>
+	<string name="csa_email">客服邮箱 :</string>
+
+	<!--AccountMessageActivity-->
+	<string name="ama_head">头像</string>
+	<string name="ama_nick">昵称</string>
+	<string name="ama_xiaoyu_account">小语账号</string>
+	<string name="ama_modify_password">修改密码</string>
+	<string name="ama_security_problem">密保问题</string>
+	<string name="ama_phone">手机号码</string>
+	<string name="ama_email_account">邮箱账号</string>
+	<string name="ama_account_msg">账号信息</string>
+	<string name="ama_account_no_setting">未设置</string>
+	<string name="ama_account_setting">已设置</string>
+	<string name="ama_account_email_no_bind">未绑定</string>
+	<string name="ama_account_email_binded">已绑定</string>
+
+	<!--UpdatePhoneActivity-->
+	<string name="upa_update_phone">更换手机号</string>
+	<string name="upa_phone">手机号</string>
+	<string name="upa_phone_verification">手机验证</string>
+	<string name="upa_bind_new_phone">绑定新手机</string>
+
+	<!--UpdateEmailActivity-->
+	<string name="uea_update_email">更换邮箱</string>
+	<string name="uea_bind_email">绑定邮箱</string>
+
+
+	<!--UpdateEmailThreeActivity-->
+	<string name="ueta_bind_new_email">绑定新邮箱</string>\
+
+	<!--UpdateEmailTwoActivity-->
+	<string name="ueta_email_verification">邮箱验证</string>
+
+	<!--UpdateEmailThreeActivity-->
+	<string name="ueta_email_bind_failed">邮箱绑定失败</string>
+	<string name="ueta_email_bind_success">邮箱绑定成功</string>
+	<string name="ra_input_sure_account_hint">请输入正确的账号</string>
+	<string name="progress_message">载入中</string>
+	<string name="toast_compressing_msg">正在压缩图片中:</string>
+	<string name="toast_compress_error_msg">压缩失败</string>
+	<string name="msg_update_email">正在修改邮箱</string>
+	<string name="msg_updating_info">正在更新信息</string>
+	<string name="msg_bind_email_success">绑定邮箱成功!</string>
+	<string name="msg_checking_verify">正在校验验证码</string>
+	<string name="msg_getting_verify">正在获取验证码</string>
+	<string name="msg_http_error">网络错误，请检查网络设置</string>
+	<string name="msg_doing">正在处理中</string>
+	<string name="msg_loading">载入中</string>
+	<string name="msg_no_data">暂无数据</string>
+	<string name="msg_logining">登录中</string>
+	<string name="msg_please_relogin">请重新登录</string>
+	<string name="la_login_failure">登录失败</string>
+	<string name="msg_share_success">分享成功</string>
+	<string name="ra_regist_failure">注册失败</string>
+	<string name="msg_please_input_sure_phone">请输入正确的手机号</string>
+	<string name="input_find_account_hint">请输入您要找回密码的账号</string>
+	<string name="msg_no_set_question">未设置密保问题</string>
+	<string name="msg_load_data_error">加载数据失败</string>
+	<string name="msg_do_not_set_security">该账号未设置密保问题</string>
+	<string name="msg_open_setting"><![CDATA[为保证APP的正常使用，请到设置->权限中打开本应用所需要的权限！]]></string>
+	<string name="center_out_login">退出登录</string>
+	<string name="title_set_security">设置密保问题</string>
+	<string name="msg_answer_sure">回答正确</string>
+	<string name="ra_input_old_password_hint">请输入原密码</string>
+	<string name="msg_no_name">未知</string>
+	<string name="msg_no_more_data">暂无更多数据</string>
+	<string name="list_is_empty">这里什么都没有哦</string>
+	<string name="list_is_empty_reload">点击重新加载</string>
+	<string name="friend_head_view_has">你已经有%1$d个回忆啦，继续保持美好吧！</string>
+	<string name="friend_head_view_no">你还没有回忆哦，快去上传一下吧！</string>
+	<string name="tv_has_praise">已点赞</string>
+	<string name="tv_no_praise">点赞</string>
+	<string name="tv_comment">评论</string>
+	<string name="lv_comment_num">%1$d条评论</string>
+	<string name="lv_praise">已赞</string>
+	<string name="lv_unpraise">点赞</string>
+	<string name="lv_cancel">取消</string>
+	<string name="lv_sumbit">提交</string>
+	<string name="lv_please_input_com">请输入评论</string>
+	<string name="lv_topic">话题</string>
+	<string name="lv_photo">图片</string>
+	<string name="lv_video">视频</string>
+	<string name="title_publish">发布话题</string>
+	<string name="et_input_publish">请输入你的话题内容</string>
+	<string name="tv_publish">发布</string>
+	<string name="msg_publish_success">发布成功</string>
+	<string name="msg_publish_failure">发布失败</string>
+	<string name="msg_publishing">发布中</string>
+	<string name="title_my_topic">我的话题</string>
+	<string name="lv_all_no_select">全不选</string>
+	<string name="msg_tip">提示!</string>
+	<string name="msg_sure_delect">是否确认删除话题?</string>
+	<string name="sure">确定</string>
+	<string name="tv_circle">圈子</string>
+	<string name="tv_start_live">开启崭新的智能生活</string>
+	<string name="tv_know_xiaoyu">认识小语</string>
+	<string name="tv_no_add_devece">您还没有添加设备</string>
+	<string name="tv_click_top">点击右上角</string>
+	<string name="tv_add_new_device">添加新设备吧</string>
+	<string name="lv_lamp_switch">台灯开关</string>
+	<string name="lv_lamp_type">照明场景</string>
+	<string name="lv_lamp_name">台灯名称</string>
+	<string name="lv_lamp_share">设备共享</string>
+	<string name="lv_lamp_net_info">网络信息</string>
+	<string name="lv_write_mode">写字模式</string>
+	<string name="lv_look_book_mode">看书学习</string>
+	<string name="lv_dianzi_mode">电子产品</string>
+	<string name="lv_sleep_mode">睡眠休息</string>
+	<string name="lv_delete_lamp">删除台灯</string>
+	<string name="tv_add_device">添加设备</string>
+	<string name="lv_zhongjiqi">中继器</string>
+	<string name="lv_lock">智能门锁</string>
+	<string name="lv_lamp">智能台灯</string>
+	<string name="lv_camera">摄像头</string>
+	<string name="title_set_wifi">设置设备工作WIFI</string>
+	<string name="lv_change_wifi">更改WIFI</string>
+	<string name="msg_please_input_wifi_pw">请输入wifi密码</string>
+	<string name="title_select_device">选择设备</string>
+	<string name="return_device_center">返回设备中心</string>
+	<string name="lv_lamp_simple">台灯</string>
+	<string name="tv_click_link">点击连接</string>
+	<string name="msg_please_select_wifi">请选择工作wifi</string>
+	<string name="msg_finding">正在查找中.</string>
+	<string name="tv_link_success">连接成功</string>
+	<string name="tv_link_failure">连接失败</string>
+	<string name="msg_sure_delect_device">是否确定要删除该设备?</string>
+	<string name="tv_change_device_name">修改设备名称</string>
+	<string name="tv_change_device_tip">修改一个好记的摄像头名称，让\n亲人更容易记得哦</string>
+	<string name="hint_input_device_name">请输入设备名称</string>
+	<string name="msg_loading_video">连接中，请稍后……</string>
+	<string name="msg_take_photo">截图成功</string>
+	<string name="msg_no_premissions">没有权限</string>
+	<string name="lv_photos">照片</string>
+	<string name="text_camera_off">摄像头开关</string>
+	<string name="text_camera_name">摄像头名称</string>
+	<string name="text_camera_jingbao">移动侦查警报</string>
+	<string name="text_camera_jingbao_set">移动侦查警报设置</string>
+	<string name="text_camera_share">设备共享</string>
+	<string name="text_camera_set">摄像头设置</string>
+	<string name="text_camera_setinfo">状态灯、画面方向、固定版本等信息</string>
+	<string name="text_camera_pw_safe">密码保护</string>
+	<string name="text_camera_pw_safeinfo">查看画面需要密码</string>
+	<string name="msg_video_record_error">录制视频失败</string>
+	<string name="msg_camera_sound_play_error">声音播放异常</string>
+	<string name="lv_delete_camera">删除摄像头</string>
+	<string name="title_camera_set2">摄像头设置</string>
+	<string name="text_camera_statu_off">状态灯开关</string>
+	<string name="text_camera_photo">图片翻转</string>
+	<string name="text_camera_hongwai">夜视红外灯</string>
+	<string name="text_camera_hongwai_set">该设置只在夜视工作时生效</string>
+	<string name="text_camera_version">固件版本</string>
+	<string name="lv_please_input_name">请输入昵称</string>
+	<string name="msg_update_info_error">更新账号信息失败</string>
+	<string name="fri_msg_activity">圈子消息</string>
+	<string name="tv_comment_me">评论我</string>
+	<string name="tv_googd">点赞我</string>
+	<string name="title_comment">评论我</string>
+	<string name="title_praise">点赞我</string>
+	<string name="text_camera_video">视频监控储存</string>
+	<string name="text_camera_video_statu">储存卡状态</string>
+	<string name="text_camera_network">网络信息</string>
+</resources>
